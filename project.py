@@ -3,8 +3,7 @@ print(store)
 buyer = input("What Would You Like To Buy: ").upper()
 
 if buyer == "TV":
-    tv = store.index("TV")
-    print(tv)
+    print("You Purchased A Tv")
 elif buyer == "COMPUTER":
     print("You Purchased A Computer")
 elif buyer == "PHONE":
