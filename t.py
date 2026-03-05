@@ -1,10 +1,13 @@
-block = input("Input: ").upper()
-c1 = "H"
-c2 = "O"
-c3 = "N"
-c4 = "I"
+x = input("Input :").upper()
 
-count = int(block.count(c1))
-count2 = int(block.count(c2))
-count3 = int(block.count(c3))
-count4 = int(block
+count = 0
+
+for letter in x:
+    if letter == "H" and "O" and "N" and "I":
+        print(count + 1)
+        count = 0
+    else:
+        print(0)
+
+
+
