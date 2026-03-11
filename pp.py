@@ -17,7 +17,6 @@ print(item[1]["name"],item[1]["price"],item[1]["department"])
 print(item[2]["name"],item[2]["price"],item[2]["department"])
 
 buyer = input("Buy What? ").upper()
-
 if buyer == "SAMSUNG 55":
     print("Samsung 55")
 elif buyer == "IPHONE 18":
@@ -28,17 +27,29 @@ elif buyer == "IPHONE 20":
 while True:
     user = input("Do you want to continue? yes/no ").lower()
     if user == "no":
+        print(buyer)
+        if buyer == "SAMSUNG 55":
+            print("$429.99")
+        elif buyer == "IPHONE 18":
+            print("$123")
+        elif buyer == "IPHONE 20":
+            print("$1000")
         break
     else:
         if user == "yes":
-            buy2 = input("What Else?")
+            buy2 = input("What Else?").upper()
             if buy2 == "SAMSUNG 55":
                 print("Samsung 55")
-                print(buyer)
+                if buyer == "IPHONE 18":
+                    p = int(429.99 + 123 )
+                    print(p)
+                elif buyer == "IPHONE 20":
+                    p1 = int(429.99 + 1000)
+                    print(p1)
             elif buy2 == "IPHONE 18":
                 print("Iphone 18")
                 print(buyer)
-            elif buy2 == "IPHONE 20":
+            elif buy2 == ("IPHONE 20"):
                 print("Iphone 20")
                 print(buyer)
 
