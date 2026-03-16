@@ -41,7 +41,7 @@ while True:
     else:
         if user == "yes":
             count += 1
-            buy2 = input("What Else?").upper()
+            buy2 = input("What Else? ").upper()
             if buy2 == "SAMSUNG 55":
                 print("Samsung 55")
                 price += float(429.99)
