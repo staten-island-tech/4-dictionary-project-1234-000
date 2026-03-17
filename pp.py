@@ -46,10 +46,10 @@ while True:
             if buy2 == "SAMSUNG 55":
                 print("Samsung 55")
                 price += float(429.99)
-            elif user == "IPHONE 18":
+            elif buy2 == "IPHONE 18":
                 print("Iphone 18")
                 price += int(123)
-            elif user == ("IPHONE 20"):
+            elif buy2 == ("IPHONE 20"):
                 print("Iphone 20")
                 price += int(1000)
 
