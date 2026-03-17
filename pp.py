@@ -30,6 +30,7 @@ elif buyer == "IPHONE 18":
 elif buyer == "IPHONE 20":
     print("Iphone 20")
     price += int(1000)
+
 while True:
     user = input("Do you want to continue? yes/no ").lower()
     if user == "no":
@@ -45,10 +46,10 @@ while True:
             if buy2 == "SAMSUNG 55":
                 print("Samsung 55")
                 price += float(429.99)
-            elif buy2 == "IPHONE 18":
+            elif user == "IPHONE 18":
                 print("Iphone 18")
                 price += int(123)
-            elif buy2 == ("IPHONE 20"):
+            elif user == ("IPHONE 20"):
                 print("Iphone 20")
                 price += int(1000)
 
