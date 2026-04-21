@@ -2,14 +2,12 @@ store =[
     {
         "name": "Samsung 55", 
         "price": 429.99, 
-        "department": "Televisions",
-     },
+        "department": "Televisions",},
 
     {
         "name": "Iphone 18", 
         "price": 123, 
-        "department": "Electronics",
-     },
+        "department": "Electronics",},
     
     {
         "name": "Iphone 20", 
@@ -36,7 +34,7 @@ cost = 0
 for things in cart:
     print(things["name"])
     cost += things["price"]
-print(cost)
+print("$",cost)
 
 
 
